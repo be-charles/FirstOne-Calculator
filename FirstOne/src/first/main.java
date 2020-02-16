@@ -22,6 +22,7 @@ public class main {
             return x * y;
         }
 
+        public double modulus(double x, double y){ return x % y; }
 
         public static void main(String[] args) {
             // write your code here
@@ -34,7 +35,7 @@ public class main {
             System.out.println(calc.name + "R" +  calc.divide(6,3)+".00");
             System.out.println(calc.name + "R" +  calc.multiple(2,2)+".00");
             System.out.println(calc.name + "R" +  calc.subtract(5,4)+".00");
-
+            System.out.println("10 modulus 2 = " + calc.modulus(10, 2));
         }
 
 
